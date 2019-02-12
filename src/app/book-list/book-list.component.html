@@ -1,0 +1,17 @@
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Author</th>
+      <th scope="col">Library Number</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let book of books">
+    <tr>
+      <td>{{book.title}}</td>
+      <td>{{book.author}}</td>
+      <td>{{book.library.libraryNumber}}</td>
+    </tr>
+  </tbody>
+</table>

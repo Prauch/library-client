@@ -1,0 +1,26 @@
+#home-btn{
+    width: 50px;
+  }
+  
+  #navbar {
+    margin: auto;
+    width: 90%;
+    background-color: #667184;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin: auto 20px;
+    vertical-align: middle;
+  }
+  
+  #home-btn{
+    margin: auto;
+    vertical-align: middle;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #99bbf7;
+    font-size: 2em;
+  }

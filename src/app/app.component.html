@@ -1,0 +1,26 @@
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<nav id="navbar">
+  <ul>
+    <li class="nav-item"><a class="nav-link" routerLink="/news-list" routerLinkActive="active"><img id="home-btn" src="https://cdn6.aptoide.com/imgs/3/d/3/3d3bdc5b1772dc92a133e2faf95660e2_icon.png?w=240"/></a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/book-list" routerLinkActive="active">Search Book</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/library-list" routerLinkActive="active">Libraries</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/add-library" routerLinkActive="active">Add library</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/add-book" routerLinkActive="active">Add Book</a></li>
+  </ul>
+</nav>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-12 blog-main">
+
+<router-outlet></router-outlet>
+
+
+</div><!-- /.blog-main -->
+
+</div><!-- /.row -->
+
+
+</main><!-- /.container -->

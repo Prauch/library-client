@@ -1,0 +1,21 @@
+<div class="col-md-6">
+  <h2 class="text-center">Add Library</h2>
+<form [formGroup]="addLibraryForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input formControlName="name" placeholder="Name" name="name" class="form-control" id="name">
+  </div>
+
+  <div class="form-group">
+    <label for="number">Library Number:</label>
+    <input formControlName="libraryNumber" placeholder="Library Number" name="libraryNumber" class="form-control" id="libraryNumber">
+  </div>
+
+  <div class="form-group">
+    <label for="address">Address:</label>
+   <input formControlName="address" placeholder="Address" name="address" class="form-control" id="address">
+  </div>
+
+  <button class="btn btn-success">Create</button>
+</form>
+</div>
